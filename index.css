@@ -1,0 +1,279 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+header {
+    background-color:black;
+    padding: 10px 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+header h2 a{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+header h2 a span{
+    color: red;
+}
+header img{
+    display: inline flex;
+    height: 60px;
+    width: 60px;   
+}
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+} 
+nav ul li {
+    margin-left: 15px;
+    margin-right: 10px;
+      font-size: 20px;
+    font-weight: bold;  
+}
+nav ul li a {
+    text-decoration: none;
+color: white;
+}
+nav ul li a:hover{
+  text-decoration: underline;
+}
+.line{
+    margin: 1px;
+    padding: 0;
+    color:white;
+}
+.hero-banner {
+    width: 1263px;
+    height: 575px;
+    overflow: hidden; 
+}
+@-webkit-keyframes slide_animation{ 
+    10% {right:  0px;}
+    20% {right:  0px;}   
+    30% {right: 1267px;}
+    40% {right: 1267px;}
+    50% {right: 1267px;}
+    60% {right: 2534px;}
+    70% {right: 2534px;}
+    80% {right: 2534px;}
+    90%{right: 2534px;}
+    100%{right: 0px;}
+    }
+.wrapper {
+    position: relative;
+    width: 3802px; 
+    height: 575px;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 17s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+    display: flex;
+}
+.wrapper img {
+    width: 1267px;
+    height: 575px; 
+}
+
+.info-section{
+    margin-top: 20px;
+    padding: 20px;
+  
+}
+.info-section p i{
+    color: red;
+}
+.importance{
+  margin-bottom: 20px;
+    padding: 20px;
+   
+}
+.importance p i{
+    color: rgb(70, 184, 255);
+    
+}
+
+.align-container{
+    display: inline-flex;
+    background-color: #ffefee; 
+}
+.moto {
+    margin-left: 60px;
+    margin-top: 15px;
+   
+}
+.moto p{
+    font-style: italic;
+    padding: 10px;
+}
+
+.photo2 img{
+    display: block;
+    margin-left: 100px;
+}
+.health{
+    padding: 20px;
+    margin-left:100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.health h2{
+    text-align: center;
+    margin-bottom: 28px;
+}
+.health p{
+    padding-bottom: 10px;
+}
+.health p i{
+color: #ff8800;
+}
+.photo1{
+    background-color: #ffefee;
+}
+.photo1 img{
+    display: block;
+    margin: auto;
+
+}
+.registers a{
+    background-color: #e74c3c;
+    color:#fff;
+    padding: 10px 20px;
+    border: none;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.registers{
+    margin-top: 40px;
+}
+.social {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+#icon-name {
+
+    margin-right:800px;
+    font-size: 25px;
+}
+
+#follow {
+    margin: 0;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    
+
+}
+
+.social-icons i {
+    color: black;
+    font-size: 25px;
+}
+
+.social-icons li a {
+    text-decoration: none;
+}
+
+.social-icons li a:hover, .social-icons i:hover {
+    color: #e74c3c;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: black;
+    color: #fff;
+    
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    
+}
+.footer-content{
+    width: 35%;
+}
+footer h4{
+    font-size: 22px;
+    margin-bottom: 15px;
+    cursor:pointer;
+    
+}
+footer h4 a{
+    text-decoration: none;
+    color: white;
+}
+footer h4:hover{
+   
+    text-decoration: underline;
+}
+.list{
+padding: 0;
+}
+.list li{
+    width: auto;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+    cursor: pointer;
+   
+}
+.list li a{
+    text-decoration: none;
+    color: white;
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #e74c3c;
+    transition-duration: .5s;
+}
+.list li:hover::before{
+width: 70px;
+}
+.bottom-bar
+{
+    background: #cf8c3f;
+    text-align: center;
+    padding:  10px 0;
+    margin-top: 60px;
+    
+}
+.bottom-bar p{
+    color:black;
+    margin: 10px;
+    font-size: 18px;
+    padding: 7px;
+    font-family: sans-serif;
+}

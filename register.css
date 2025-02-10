@@ -1,0 +1,142 @@
+body{
+    font-family: "poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(pic/66.jpg) ;
+}
+main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;  
+    }
+.login-section{
+    width: 430px;
+   background-color: transparent;
+    border: 5px solid rgba(255, 255, 255, 1);
+    backdrop-filter: blur(20px); 
+    color:black; 
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+.login-section h1{
+    font-size: 36px;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+height: 50px;
+ 
+margin: 30px 0;
+}
+.input-box input::placeholder{
+    color:black;
+
+
+}
+.input-box i{
+    position: absolute;
+    right: 35px;
+    bottom: 10%;
+    transform: translateY(-50%);
+}
+.input-box input{
+width: 95%;
+height: 100%;
+background: transparent;
+border: none;
+outline: none;
+border: 5px solid rgb(88, 88, 88);
+border-radius: 40px;
+font-size: 16px;
+color: black;
+
+}
+button{
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+.register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+    font-weight: bold;
+}
+.register-link p a{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
+header {
+  
+    
+    background-color:black;
+    padding: 10px 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+header h2 a{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+}
+
+header h2 a span{
+    color: red;
+}
+header img{
+    display: inline flex;
+    height: 60px;
+    width: 60px;
+    
+}
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+nav ul li {
+   margin-left: 15px;
+   margin-right: 10px;
+      font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+    
+
+
+nav ul li a {
+text-decoration: none;
+color: white;
+}
+
+
+nav ul li a:hover{
+    
+    text-decoration: underline;
+
+} 

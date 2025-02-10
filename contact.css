@@ -1,0 +1,377 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+header {
+  
+    
+    background-color:black;
+    padding: 10px 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h2 a{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+}
+
+header h2 a span{
+    color: red;
+}
+header img{
+    display: inline flex;
+    height: 60px;
+    width: 60px;
+    
+}
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+nav ul li {
+   margin-left: 15px;
+   margin-right: 10px;
+      font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+    
+
+
+nav ul li a {
+text-decoration: none;
+color: white;
+}
+
+
+nav ul li a:hover{
+    
+    text-decoration: underline;
+
+}
+.contact{
+    position:relative;
+   height: 687px;
+ background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic/blood\ donation_1127152.jpg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    background-size: cover;
+    
+  
+}
+
+
+}
+.content{
+max-width: 800px;
+text-align: center;
+
+}
+.content h1{
+
+font-size: 40px;
+    font-weight: bold;
+    color:black;
+   margin-left: 510px;
+   position: relative;
+}
+.content p{
+    font-weight: bold;
+    color: white;
+    position: relative;
+  
+   margin-left: 320PX;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.icon{
+    min-width: 60px;
+    height: 60px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.text1{
+    
+display: flex;
+margin-left: 20px;
+font-size: 16px;
+color: white;
+background: transparent;
+backdrop-filter: blur(40px);
+flex-direction: column;
+font-weight: bold;
+border: 5px solid rgba(255, 255, 255, 0.459);
+border-radius: 10px;
+height: 120px;
+padding: 10px;
+width: 270px;
+}
+.text2{
+display: flex;
+margin-left: 20px;
+font-size: 16px;
+color: white;
+background: transparent;
+backdrop-filter: blur(40px);
+flex-direction: column;
+font-weight: bold;
+border: 5px solid rgba(255, 255, 255, 0.459);
+height: 80px;
+width: 270px;
+border-radius: 10px;
+padding: 10px;
+}
+.text3{
+    display: flex;
+    margin-left: 25px;
+    font-size: 16px;
+    color: white;
+    background: transparent;
+    backdrop-filter: blur(40px);
+    flex-direction: column;
+    font-weight: bold;
+    border: 5px solid rgba(255, 255, 255, 0.459);
+    height: 80px;
+width: 270px;
+padding: 10px;
+border-radius: 10px;
+    }
+
+.text1 h3, .text2 h3, .text3 h3{
+font-weight: bold;
+color: black;
+margin: 0;
+text-decoration: underline;
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+    position: relative;
+}
+.contactForm h2{
+font-size: 30px;
+color: #333;
+font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input{
+width: 100%;
+padding: 5px 0;
+font-size: 16px;
+margin: 10px 0;
+border: none;
+border-bottom: 2px solid #333;
+outline: none;
+resize: none;
+}
+.contactForm .inputBox textarea{
+    width: 450px;
+    height: 80px;
+}
+.contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span
+{
+  color: #e91e63;
+font-size: 12px;
+transform: translateY(-20px);
+}
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-30px);
+}
+
+}
+
+.adjust{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+
+}
+.contactForm .inputBox input[type="submit"]
+{
+    width: 100px;
+    background: rgb(0, 191, 255);
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+.social {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+#icon-name {
+
+    margin-right:800px;
+    font-size: 25px;
+}
+
+#follow {
+    margin: 0;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    
+
+}
+
+.social-icons i {
+    color: black;
+    font-size: 25px;
+}
+
+.social-icons li a {
+    text-decoration: none;
+}
+
+.social-icons li a:hover, .social-icons i:hover {
+    color: #e74c3c;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: black;
+    color: #fff;
+    
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    
+}
+.footer-content{
+    width: 35%;
+}
+footer h4{
+    font-size: 22px;
+    margin-bottom: 15px;
+    cursor:pointer;
+    
+}
+footer h4 a{
+    text-decoration: none;
+    color: white;
+}
+footer h4:hover{
+   
+    text-decoration: underline;
+}
+.list{
+padding: 0;
+}
+.list li{
+    width: auto;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+    cursor: pointer;
+   
+}
+.list li a{
+    text-decoration: none;
+    color: white;
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #e74c3c;
+    transition-duration: .5s;
+}
+.list li:hover::before{
+width: 70px;
+}
+.bottom-bar
+{
+    background: #cf8c3f;
+    text-align: center;
+    padding:  10px 0;
+    margin-top: 60px;
+    
+}
+.bottom-bar p{
+    color:black;
+    margin: 10px;
+    font-size: 18px;
+    padding: 7px;
+    font-family: sans-serif;
+}

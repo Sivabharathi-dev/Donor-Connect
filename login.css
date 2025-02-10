@@ -1,0 +1,182 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   background-image: url(pic/66.jpg);
+  
+  
+}
+
+header {
+  
+    
+    background-color:black;
+    padding: 10px 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+header h2 a{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+}
+
+header h2 a span{
+    color: red;
+}
+header img{
+    display: inline flex;
+    height: 60px;
+    width: 60px;
+    
+}
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+nav ul li {
+   margin-left: 15px;
+   margin-right: 10px;
+      font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+    
+
+
+nav ul li a {
+text-decoration: none;
+color: white;
+}
+
+
+nav ul li a:hover{
+    
+    text-decoration: underline;
+
+}
+.form-container{
+text-align: center;
+margin: 0 5% 0 5%;
+
+
+}
+.form-section{
+    padding: 28px;
+    margin: 0 295px;
+    max-width: 650px;
+    display: flex;
+     border:  5px solid rgb(59, 59, 59);
+    backdrop-filter: blur(20px); 
+    height:55vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+.user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.user-inputbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px; 
+}
+.passinput{
+    margin-top: 37px;
+    width: 180px;
+    height: 20px;
+    position: relative;
+}
+.passlabel{
+    margin-top: 37px;
+}
+.bloodinput{
+    margin-top: 20px;
+}
+.bloodlabel{
+    margin-top: 20px;
+}
+.mailinput{
+    width: 180px;
+    height: 20px;
+}
+.mailinput{
+    margin-top: 20px;
+}
+.maillabel{
+    margin-top:20px;
+}
+
+.addresslabel{
+    margin-top:37px;
+   
+}
+.addressinput{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+}
+.districtlabel{
+    margin-top:23px;
+}
+.districtinput{
+    width: 180px;
+    height: 30px;
+    margin-top:18px;
+}
+#toggleIcon img{
+    width: 20px;
+    position: absolute;
+    top: 172px;
+    right: 393px;
+}
+button{ 
+    background-color: #e74c3c;
+    color:#fff;
+     padding: 12px 30px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; 
+    margin: auto;
+    display: block; 
+    font-size: 18px;
+} 
+
+.register-link{
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 50px; 
+    font-weight: bold;
+}
+.register-link p a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
+.pincodelabel {
+    margin-top: 20px;
+}
+
+.pincodeinput {
+    width: 180px;
+    height: 20px;
+    margin-top: 20px;
+}
