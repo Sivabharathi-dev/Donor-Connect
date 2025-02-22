@@ -1,4 +1,6 @@
-﻿
+﻿ <?php
+require_once 'vendor/autoload.php'; 
+
 use Twilio\Rest\Client;
 
 function sendWhatsAppReminder($recipientNumber, $message) {
