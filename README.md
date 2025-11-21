@@ -89,6 +89,8 @@ Twilio SID
 
 Twilio Auth Token
 
+Twilio Whatsapp Sender Number
+
 LocationIQ API Key
 
 
@@ -154,8 +156,7 @@ i) blood_request Table
 
 Table name: blood_request
 
-Column Names
-
+Columns:
 Id	
 Patient_name	
 Attendee_mobile	
@@ -170,49 +171,22 @@ Latitude
 Longitude	
 
 
-SQL Example:
-
-CREATE TABLE blood_request (
-  Id INT AUTO_INCREMENT PRIMARY KEY,
-  Patient_name VARCHAR(150),
-  Attendee_mobile VARCHAR(30),
-  Blood_group VARCHAR(5),
-  Quantity INT,
-  Required_date DATE,
-  Reason TEXT,
-  Hospital_Address VARCHAR(200),
-  District VARCHAR(100),
-  Pincode VARCHAR(10),
-  Latitude DOUBLE,
-  Longitude DOUBLE
-);
-
-
-
 ii) contact Table
 
 Table name: contact
 
+Columns:
 Id	
 Name	
 Email	
 Message	
-
-SQL Example:
-
-CREATE TABLE contact (
-  Id INT AUTO_INCREMENT PRIMARY KEY,
-  Name VARCHAR(150),
-  Email VARCHAR(150),
-  Message TEXT
-);
 
 
 iii)donor_register Table
 
 Table name: donor_register
 
-
+Columns: 
 Id	
 Name	
 Age	
@@ -224,24 +198,6 @@ District
 Pincode	
 Latitude	
 Longitude	
-
-
-SQL Example:
-
-CREATE TABLE donor_register (
-  Id INT AUTO_INCREMENT PRIMARY KEY,
-  Name VARCHAR(150),
-  Age INT,
-  Blood_group VARCHAR(5),
-  Phone VARCHAR(30),
-  Password VARCHAR(255),
-  Address VARCHAR(200),
-  District VARCHAR(100),
-  Pincode VARCHAR(10),
-  Latitude DOUBLE,
-  Longitude DOUBLE
-);
-
 
 7.Run the Project
 
