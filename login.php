@@ -3,7 +3,7 @@ session_start();
 include("db.php");
 
 function getLatLong($address, $district, $pincode) {
-    $apiKey = 'pk.9f761166924a3bcfbff39b89358792d0'; 
+    $apiKey = 'YOUR LOCATIONIQ API KEy'; 
     $fullAddress = $address . ', ' . $district . ', ' . $pincode; 
     $url = "https://us1.locationiq.com/v1/search.php?key={$apiKey}&q=" . urlencode($fullAddress) . "&format=json";
 
@@ -235,3 +235,4 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     </main>
 </body>
 </html>
+
