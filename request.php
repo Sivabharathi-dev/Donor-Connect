@@ -4,7 +4,7 @@ include("db.php");
  require_once 'send_whatsapp.php';
 
 function getLatLong($hosadd, $district, $pincode) {
-    $apiKey = 'pk.9f761166924a3bcfbff39b89358792d0'; 
+    $apiKey = 'YOUR LOCATIONIQ API KEY'; 
     $fullAddress = trim($hosadd) . ', ' . trim($district) . ', ' . trim($pincode); 
     $url = "https://us1.locationiq.com/v1/search.php?key={$apiKey}&q=" . urlencode($fullAddress) . "&format=json";
 
@@ -313,4 +313,5 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             </div>
         </footer>
         </body>
+
         </html>  
